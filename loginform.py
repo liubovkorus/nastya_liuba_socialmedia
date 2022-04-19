@@ -9,7 +9,7 @@ def log_in():
     return render_template('login.html')
 
 
-@app.route('/register')
+@app.route('/sign_up')
 def reg_page():
     return render_template('sign_up.html')
 
